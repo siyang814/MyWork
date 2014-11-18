@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 密码键盘 -->
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#000080</color>
+    <color name="red">#FF0000</color>
+	<!-- Tab Font -->
+	<color name="tv_bg_color">#FF411445</color>
+	<color name="tv_bg_press_color">#FF310535</color>
+	<color name="tv_bg_select_color">#FF210025</color>
+	
+	<color name="tab_unselected">#ff556B2F</color>
+	<color name="tab_selected">#ff6B8E23</color>
+	<color name="tab_focus">#ffff8000</color>
+	<color name="tab_press">#ffe9a700</color>
+	
+	<color name="tab_font_unselected">#ff888888</color>
+	<color name="tab_font_selected">#ffffffff</color>
+	<color name="tab_font_focus">#ffffffff</color>
+	<color name="tab_font_press">#ff888888</color>
+	
+
+	<drawable name="white">#ffffff</drawable>
+	<drawable name="black">#000000</drawable>
+	<drawable name="gray">#a0a0a0</drawable>
+	<drawable name="orange">#ff8c00</drawable>
+	
+	<drawable name="balanceLabel">#0000ff</drawable>
+	<drawable name="bankLabel">#ff0000</drawable>
+	<drawable name="divider">#989898</drawable>
+	<drawable name="transparent">#00000000</drawable>
+</resources>

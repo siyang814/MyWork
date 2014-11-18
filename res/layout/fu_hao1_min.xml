@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/fuhao1_0"
+                style="@style/min_btn_style"
+                android:text="^" />
+
+            <Button
+                android:id="@+id/fuhao1_1"
+                style="@style/min_btn_style"
+                android:text="|" />
+
+            <Button
+                android:id="@+id/fuhao1_3"
+                style="@style/min_btn_style"
+                android:text="_" />
+
+            <Button
+                android:id="@+id/fuhao1_4"
+                style="@style/min_btn_style"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/fuhao1_2"
+                style="@style/min_btn_style"
+                android:text="[" />
+
+            <Button
+                android:id="@+id/fuhao1_5"
+                style="@style/min_btn_style"
+                android:text="]" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/fuhao1_6"
+                style="@style/min_btn_style"
+                android:text="{" />
+
+            <Button
+                android:id="@+id/fuhao1_7"
+                style="@style/min_btn_style"
+                android:text="}" />
+
+            <Button
+                android:id="@+id/fuhao1_8"
+                style="@style/min_btn_style"
+                android:text="&lt;" />
+
+            <Button
+                android:id="@+id/fuhao1_9"
+                style="@style/min_btn_style"
+                android:text=">" />
+
+            <Button
+                android:id="@+id/fuhao1_10"
+                style="@style/min_btn_style"
+                android:text="\\" />
+
+            <Button
+                android:id="@+id/fuhao1_11"
+                style="@style/min_btn_style"
+                android:text="/" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/fuhao1_12"
+                style="@style/min_btn_style"
+                android:text="@string/code11" />
+
+            <Button
+                android:id="@+id/fuhao1_13"
+                style="@style/min_btn_style"
+                android:text="`" />
+
+            <Button
+                android:id="@+id/fuhao1_14"
+                style="@style/min_btn_style"
+                android:text="~" />
+
+            <Button
+                android:id="@+id/fuhao1_15"
+                style="@style/min_btn_style"
+                android:text="," />
+
+            <ImageButton
+                android:id="@+id/fuhao2_11"
+                style="@style/min_btn_style"
+                android:paddingBottom="15dip"
+                android:paddingTop="5dip"
+                android:src="@drawable/pass_remove"
+                android:text="@string/fuhao1" />
+
+            <Button
+                android:id="@+id/fuhao1_23"
+                style="@style/min_btn_style"
+                android:background="@drawable/pass_more"
+                android:singleLine="true"
+                android:text="更多" />
+
+            <Button
+                android:id="@+id/fuhao1_19"
+                style="@style/min_btn_style"
+                android:singleLine="true"
+                android:text="确定" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

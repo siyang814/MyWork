@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_q"
+            style="@style/btn_style1"
+            android:text="q" />
+
+        <Button
+            android:id="@+id/btn_w"
+            style="@style/btn_style1"
+            android:text="w" />
+
+        <Button
+            android:id="@+id/btn_e"
+            style="@style/btn_style1"
+            android:text="e" />
+
+        <Button
+            android:id="@+id/btn_r"
+            style="@style/btn_style1"
+            android:text="r" />
+
+        <Button
+            android:id="@+id/btn_t"
+            style="@style/btn_style1"
+            android:text="t" />
+
+        <Button
+            android:id="@+id/btn_y"
+            style="@style/btn_style1"
+            android:text="y" />
+
+        <Button
+            android:id="@+id/btn_u"
+            style="@style/btn_style1"
+            android:text="u" />
+
+        <Button
+            android:id="@+id/btn_i"
+            style="@style/btn_style1"
+            android:text="i" />
+
+        <Button
+            android:id="@+id/btn_o"
+            style="@style/btn_style1"
+            android:text="o" />
+
+        <Button
+            android:id="@+id/btn_p"
+            style="@style/btn_style1"
+            android:text="p" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_a"
+            style="@style/btn_style1"
+            android:text="a" />
+
+        <Button
+            android:id="@+id/btn_s"
+            style="@style/btn_style1"
+            android:text="s" />
+
+        <Button
+            android:id="@+id/btn_d"
+            style="@style/btn_style1"
+            android:text="d" />
+
+        <Button
+            android:id="@+id/btn_f"
+            style="@style/btn_style1"
+            android:text="f" />
+
+        <Button
+            android:id="@+id/btn_g"
+            style="@style/btn_style1"
+            android:text="g" />
+
+        <Button
+            android:id="@+id/btn_h"
+            style="@style/btn_style1"
+            android:text="h" />
+
+        <Button
+            android:id="@+id/btn_j"
+            style="@style/btn_style1"
+            android:text="j" />
+
+        <Button
+            android:id="@+id/btn_k"
+            style="@style/btn_style1"
+            android:text="k" />
+
+        <Button
+            android:id="@+id/btn_l"
+            style="@style/btn_style1"
+            android:text="l" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_shift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pass_number"
+            android:paddingBottom="22dip"
+            android:paddingLeft="9dip"
+            android:paddingRight="9dip"
+            android:paddingTop="10dip"
+            android:src="@drawable/pass_shift1"
+            android:text="Shift" />
+
+        <Button
+            android:id="@+id/btn_z"
+            style="@style/btn_style1"
+            android:text="z" />
+
+        <Button
+            android:id="@+id/btn_x"
+            style="@style/btn_style1"
+            android:text="x" />
+
+        <Button
+            android:id="@+id/btn_c"
+            style="@style/btn_style1"
+            android:text="c" />
+
+        <Button
+            android:id="@+id/btn_v"
+            style="@style/btn_style1"
+            android:text="v" />
+
+        <Button
+            android:id="@+id/btn_b"
+            style="@style/btn_style1"
+            android:text="b" />
+
+        <Button
+            android:id="@+id/btn_n"
+            style="@style/btn_style1"
+            android:text="n" />
+
+        <Button
+            android:id="@+id/btn_m"
+            style="@style/btn_style1"
+            android:text="m" />
+
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/pass_number"
+            android:paddingBottom="31dip"
+            android:paddingLeft="9dip"
+            android:paddingRight="9dip"
+            android:paddingTop="10dip"
+            android:src="@drawable/pass_remove"
+            android:text="@string/fuhao1" />
+    </LinearLayout>
+
+</LinearLayout>

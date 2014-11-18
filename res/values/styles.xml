@@ -1,0 +1,192 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+     <style name="fill_fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    
+    <style name="wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="fill_wrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="fill_match">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        
+    </style>
+    
+    <style name="wrap_fill">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    
+    <!-- 密码键盘按钮 -->
+    <style name="pass_btn_style">
+        <item name="android:background">@drawable/pass_number</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingBottom">20dip</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    
+    <style name="btn_style1">
+        <item name="android:background">@drawable/pass_number</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingBottom">30dip</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    
+    <!-- 密码键盘按钮 -->
+    <style name="min_btn_style">
+        <item name="android:background">@drawable/pass_number</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:paddingBottom">10dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    
+    <!-- 标题 -->
+    <style name="StyleTextTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- 文字信息 -->
+    <style name="StyleTextInfo5">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- 提示信息 -->
+    <style name="StylePromptText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12dip</item>
+        <item name="android:textColor">@drawable/black</item>
+        <item name="android:padding">10dip</item>
+    </style>
+    <!-- 内容信息（如关于等） -->
+    <style name="StyleContentText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:textColor">@drawable/black</item>
+        <item name="android:padding">20dip</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <!-- 欢迎界面文字信息 -->
+    <style name="StyleWelcomeTextInfo">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_width">wrap_content</item>
+         <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- listview item 多行文字  -->
+    <style name="StyleTextListItem1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!-- 行 -->
+	<style name="StyleRow">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">2dip</item>
+    </style>
+    <!-- 行输入框 -->
+    <style name="StyleRowEdit">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#D9D9D9</item>
+        <item name="android:singleLine">true</item>
+    </style>
+        <!-- <item name="android:background">@null</item> -->
+	<!-- Button -->
+    <!-- 列表弹出框样式 -->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">false</item><!--无标题-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
+    <!-- 无标题的Dialog -->
+    <style name="FullHeightDialog" parent="android:style/Theme.Dialog">
+    	<item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- 我的预约详情 -->
+    <style name="StyleText">
+		<item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/black</item>
+        <item name="android:textSize">14dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="Stylescroll" parent="style/fill_fill">
+        <item name="android:scrollbars">none</item>
+    </style>
+    <!-- 数字EditView -->
+    <style name="SytleEditNum" parent="style/fill_wrap">
+        <item name="android:numeric">integer</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <!--广告框 -->
+    <style name="dialog_ad" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+        <item name="android:background" >@drawable/transparent</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+</resources>

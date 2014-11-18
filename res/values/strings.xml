@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyWork</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="code11">\"</string>
+    <string name="fuhao1">←</string>
+    <string name = "fuhao2">&amp;</string> 
+</resources>
